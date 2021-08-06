@@ -17,7 +17,7 @@ echo "CLONING TEAM NEWTON REPOSITORY @ GITHUB ..."
 echo " "
 echo "=============================================================="
 echo "CHECKING FOR REQUIRED DEPENDECIES ..."
-	REQ_DEPEND=("bash" "python3")
+	REQ_DEPEND=("bash" "python3" "julia")
 echo "[INFO] The Following are required to run the submitted scripts: "${REQ_DEPEND[@]}
 	for i in "${REQ_DEPEND[@]}";do
 	    command -v $i >/dev/null 2>&1 || {
