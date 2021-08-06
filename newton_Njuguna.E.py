@@ -1,15 +1,21 @@
-
 def task1():
     print("Name:Eunice Njuguna")
     print("Email address:eunice2915@gmail.com")
-    print("Institution:Pwani University")
-    print("course:Msc Bioinformatics")
+    print("Twitterhandle:@Eunice1420165")
     print("slack username:@Njuguna.E")
-    print("my Biostacks:genomics",
-          "vaccine and informatics",
-          "data analytics",
-          "software development",
-          "bioinformatics front end",
-          sep = "\n"
-         )
+    print("my Biostacks:genomics")
 task1()
+
+slack_username ="@Njuguna.E"
+twitter = "@Eunice1420165"
+def HammDist(slack_username,twitter):
+    a=slack_username
+    b=twitter
+    if len(a)>len(b):
+        print('Hamming Distance is:', len(a)-len(b))
+    elif len(b)>len(a):
+        print('Hamming Distance is:', len(b)-len(a))
+    else:
+        print('No Hamming Distance')
+        
+HammDist(slack_username,twitter)
