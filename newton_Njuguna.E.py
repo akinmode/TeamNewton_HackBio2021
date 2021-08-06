@@ -18,4 +18,4 @@ def HammDist(slack_username,twitter):
     else:
         print('No Hamming Distance')
         
-HammDist(slack_username,twitter)     
+HammDist(slack_username,twitter)
