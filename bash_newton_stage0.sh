@@ -33,7 +33,7 @@ echo "HACKBIO INTERNSHIP 2021: TEAM Newton"
 _generate() {
 	#Create a csv file with the header
 	echo "[INFO] Creating csv for submitted scripts to "$OUTPUT_CSV
-	echo "NAME,EMAIL,SLACK HANDLE,BIOSTACK,TWITTER HANDLE,HAMMSTRING DISTANCE" > $OUTPUT_CSV
+	echo "NAME,EMAIL,SLACK HANDLE,BIOSTACK,TWITTER HANDLE,HAMMING DISTANCE" > $OUTPUT_CSV
 	echo " "
 	#Loop through the designated folder to run the scripts beginning with 'newton'
 	for i in $NEWTON_FOLDER/newton_*;do
