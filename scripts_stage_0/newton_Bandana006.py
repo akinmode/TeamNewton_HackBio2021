@@ -10,7 +10,7 @@ def hammingDist(Slack_handle, Twitter_handle):
 Name = "Bandana Pahi"
 Email = "pahibandana207@gmail.com"
 Slack_handle = "@Bandana006"
-Biostack = "Data_Analysis"
+Biostack = "Transcriptomics"
 Twitter_handle = "@bandana998"
 Hammdist = hammingDist(Slack_handle, Twitter_handle)
 print("Name: {}\nEmail: {}\nSlack_handle: {}\nBiostack: {}\ntwitter handle: {}\nHamming_distance: {}".format(Name, Email, Slack_handle, Biostack, Twitter_handle, Hammdist))
@@ -18,7 +18,7 @@ import csv
     
 fields = ['Name', 'Email', 'Slack_handle', 'Biostack', 'Twitter_handle', 'Hamming_distance'] 
     
-rows = [ ['Bandana Pahi', 'pahibandana207@gmail.com', '@Bandana006', 'Data_Analysis', '@bandana998', '4']] 
+rows = [ ['Bandana Pahi', 'pahibandana207@gmail.com', '@Bandana006', 'Transcriptomics', '@bandana998', '4']] 
     
 filename = "Bandana_Stage1.csv"
      
