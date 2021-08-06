@@ -38,10 +38,10 @@ _generate() {
 	#Loop through the designated folder to run the scripts beginning with 'newton'
 	for i in $NEWTON_FOLDER/newton_*;do
 	    case $i in
-		*".sh" ) bash $i | awk -F": " '{ORS=","}{print $2}' | sed 's/,$/\n/g' >> $OUTPUT_CSV; echo "[INFO] "$(basename -- $i) " extracted to "$OUTPUT_CSV;;
-      	*".py" ) python3 $i | awk -F": " '{ORS=","}{print $2}' | sed 's/,$/\n/g' >> $OUTPUT_CSV; echo "[INFO] "$(basename -- $i) " extracted to "$OUTPUT_CSV;;
-		*".jl" ) julia $i | awk -F": " '{ORS=","}{print $2}' | sed 's/,$/\n/g' >> $OUTPUT_CSV; echo "[INFO] "$(basename -- $i) " extracted to "$OUTPUT_CSV;;
-		*".R" ) Rscript $i | awk -F": " '{ORS=","}{print $2}' | sed 's/,$/\n/g' >> $OUTPUT_CSV; echo "[INFO] "$(basename -- $i) " extracted to "$OUTPUT_CSV;;
+		*".sh" ) bash $i | awk -F":" '{ORS=","}{print $2}' | sed 's/,$/\n/g' >> $OUTPUT_CSV; echo "[INFO] "$(basename -- $i) " extracted to "$OUTPUT_CSV;;
+      	*".py" ) python3 $i | awk -F":" '{ORS=","}{print $2}' | sed 's/,$/\n/g' >> $OUTPUT_CSV; echo "[INFO] "$(basename -- $i) " extracted to "$OUTPUT_CSV;;
+		*".jl" ) julia $i | awk -F":" '{ORS=","}{print $2}' | sed 's/,$/\n/g' >> $OUTPUT_CSV; echo "[INFO] "$(basename -- $i) " extracted to "$OUTPUT_CSV;;
+		*".R" ) Rscript $i | awk -F":" '{ORS=","}{print $2}' | sed 's/,$/\n/g' >> $OUTPUT_CSV; echo "[INFO] "$(basename -- $i) " extracted to "$OUTPUT_CSV;;
    		esac
 	done
 	echo " "
