@@ -44,7 +44,7 @@ _generate() {
 		*".py" ) python $i | awk -F":" '{ORS=","}{print $2}' | sed 's/,$/\n/g' >> $OUTPUT_CSV && echo "[CHECK] "$(basename -- $i) " extracted to "$OUTPUT_CSV;;
 		*".jl" ) julia $i | awk -F":" '{ORS=","}{print $2}' | sed 's/,$/\n/g' >> $OUTPUT_CSV && echo "[CHECK] "$(basename -- $i) " extracted to "$OUTPUT_CSV;;
 		*".R" ) Rscript $i | awk -F":" '{ORS=","}{print $2}' | sed 's/,$/\n/g' >> $OUTPUT_CSV && echo "[CHECK] "$(basename -- $i) " extracted to "$OUTPUT_CSV;;
-      	esac
+      	    esac
 	done
 	echo " "
 	echo "[SUCCESS] "$OUTPUT_CSV" generated!"
