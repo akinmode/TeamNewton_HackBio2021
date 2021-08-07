@@ -13,7 +13,7 @@
 	OUTPUT_CSV="team_newton_stage_0.csv"
 echo "=============================================================="
 echo "CLONING TEAM NEWTON REPOSITORY @ "$TEAM_REPO
-	#git clone $TEAM_REPO
+	git clone $TEAM_REPO
 echo " "
 echo "=============================================================="
 echo "CHECKING FOR REQUIRED DEPENDECIES ..."
