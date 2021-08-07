@@ -13,7 +13,7 @@ def hammingDistance(str1,str2):
           return ham
      count+=1
     
-hamming_distance = hammingDistance(slackUsername, twitter_handle)
+hamming_distance = "HAMMING:"+str(hammingDistance(slackUsername, twitter_handle))
 
 
 
