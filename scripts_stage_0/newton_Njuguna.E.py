@@ -16,6 +16,6 @@ def HammDist(slack_username,twitter):
     elif len(b)>len(a):
         print('Hamming Distance is:', len(b)-len(a))
     else:
-        print('No Hamming Distance')
+        print('Hamming Distance is:',0)
         
 HammDist(slack_username,twitter)
