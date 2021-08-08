@@ -12,9 +12,9 @@ Bandana Pahi
 <h3>Team Task for Stage 0</h3>
 <label><strong>The Spreadsheet project</strong></label>
  <ul><li>Each team should create a GitHub repo</li>
- <li>Add a comprehensive readme.md with essential information about the internship, the team, the contributors, pictures if possible using markdown</li>
+ <li>Add a comprehensive <code>readme.md</code> with essential information about the internship, the team, the contributors, pictures if possible using markdown</li>
  <li>Each team will work on a minimum of  7 different programming languages</li>
- <li>For each person in a team, pick one of the 7 programming languages, Write a script that prints your name, your email, your slack username (with @) and your biostack in that order</li>
+ <li>For each person in a team, pick one of the 7 programming languages, Write a script that prints your <code>name</code>, your <code>email</code>, your <code>slack username (with @)</code>, your <code>biostack</code>, your <code>twitter handle</code>, and the <code>hamming distance</code> between your slack username and your twitter handle in that order</li>
  <li>Push the script to your team's git repo</li>
  <li>Collaboratively as a team, develop a bash script that clones the git repo, and generates a CSV file from all the outputs of your team's scripts</li>
  <li>Submit your team's GitHub link to only the bash script</li>
