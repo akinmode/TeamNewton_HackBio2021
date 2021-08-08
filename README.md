@@ -8,6 +8,8 @@ The internship is absolutely cost-free, and no exam or interview is required. It
 <p>Team members include:
 Nelson Mokaya Nyakundi![photo](https://user-images.githubusercontent.com/81297293/128130667-546dce20-5725-403f-abf6-d2a87a822043.jpg)</p>
 Bandana Pahi
+Akinwale Akinjiola
+Modupe Ariyo
 
 <h3>Team Task for Stage 0</h3>
 <label><strong>The Spreadsheet project</strong></label>
